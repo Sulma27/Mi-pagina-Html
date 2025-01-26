@@ -1,0 +1,46 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Reset de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Reset de tablas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0;
+}
+
+/* Reset para botones */
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reset para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Reset para enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}

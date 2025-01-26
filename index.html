@@ -1,68 +1,54 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
-   </head>
-   <body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./reset.css">
+  <title>Mi Primer Sitio Web</title>
+</head>
+<body>
+  <header class="header-container">
+    <h1 class="header-title">Bienvenidos a Mi Sitio Web</h1>
+    <div>
+      <p class="header-subtitle">Exploradora del mundo digital</p>
+      <p class="header-subtitle">Hoy doy mi primer paso en el mundo del desarrollo web con mi primera página en HTML; 
+        estoy emocionada y comprometida a aprender, crear y transformar ideas en realidad digital.
+      </p>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <section class="about-section">
+      <h2>En estos artículos encontrarán información sobre mí</h2>
+      <article class="article-content">
+        <h2>¿Quién soy?</h2>
+        <p>Mi nombre es Sulma Jiménez, vivo en Bogotá, tengo 31 años y estoy aprendiendo desarrollo web.</p>
+        <p>Soy una entusiasta de la programación, con ganas de aprender y construir proyectos increíbles.</p>
+      </article>
+    </section>
 
-    <header>
-        <h1>Bienvenidos a Mi Sitio Web</h1>
-        <div>
-            <p>Exploradora del mundo digital</p>
-            <p>Hoy doy mi primer paso en el mundo del desarrollo web con mi primera página en HTML; 
-                estoy emocionada y comprometida a aprender, crear y transformar ideas en realidad digital
-            </p>
-        </div>
-    </header>
-        
-     <hr />
+    <section class="hobbies-section">
+      <h2>Mis Hobbies</h2>
+      <ul>
+        <li>Leer</li>
+        <li>Programar</li>
+        <li>Escuchar música</li>
+        <li>Pasar tiempo en familia</li>
+        <li>Películas</li>
+      </ul>
+    </section>
 
-     <main>
+    <section class="gallery-section">
+      <h2>Galería de fotos</h2>
+      <img src="./foto curriculum.png" alt="Galería de fotos" class="gallery-image" />
+    </section>
+  </main>
 
-        <section>
-            <h2>En estos articulos encotraran informacion sobre mi</h2>
-
-            <article>
-                <h2>¿Quien soy?</h2>
-                <div>
-                    <p>Mi nombre es Sulma Jiménez, vivo en bogota, tengo 31 años y estoy aprendiendo desarrollo web</p>
-                    <p>Soy una entusiasta de la programación, con ganas de aprender y construir proyectos increíbles</p>
-                </div>
-            </article>
-        
-
-            <hr />
-
-        
-            <article>
-                <h2>Mis Hobbies</h2>
-                <ul>
-                   <li>Leer</li>
-                   <li>Programar</li>
-                   <li>Escuchar música</li>
-                   <li>Pasar tiempo en familia</li>
-                   <li>Peliculas</li>
-                </ul>
-            </article>
-        
-
-            <hr />
-
-        
-            <article>
-                <h2>Galeria de fotos</h2>
-                <img src="./foto curriculum.png"/>
-            </article>
-        </section>
-
-     </main>
-
-     <footer>
-        <p>Mi primer pagina</p>
-        <a href="./formulario.html">Ejemplo de formulario</a>
-     </footer>
-
-   </body>
+  <footer class="footer-container">
+    <p>Mi primera página</p>
+    <a href="./formulario.html" class="footer-link">Ejemplo de formulario</a>
+  </footer>
+</body>
 </html>
+
